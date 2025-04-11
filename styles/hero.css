@@ -134,7 +134,7 @@
 }
 
 .description {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 30px;
     font-family: 'Exo', sans-serif;
     color: #90f6e1;
@@ -167,6 +167,7 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
+    margin-top: 50px;
     text-decoration: none;
     color: #ea82af;
     font-weight: 600;

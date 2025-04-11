@@ -36,7 +36,7 @@
 
 .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .nav-links .btn {
-    padding: 10px 24px;
+    padding: 10px 14px;
     border: none;
     background: linear-gradient(135deg, #00f5c9, #ea82af);
     color: #0f0f0f;
