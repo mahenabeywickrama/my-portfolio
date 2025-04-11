@@ -360,6 +360,17 @@
             font-size: 16px;
             color: #ea82af;
         }
+
+        .circle-icon:hover {
+            animation: bounce 0.6s ease;
+        }
+
+        @keyframes bounce {
+            0%   { transform: translateY(0); }
+            25%  { transform: translateY(-4px); }
+            75% { transform: translateY(4px); }
+            100% { transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
