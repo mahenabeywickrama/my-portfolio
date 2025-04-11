@@ -34,6 +34,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background-color: #0e0e10;
             color: #e0e0e0;
@@ -55,7 +59,7 @@
             padding: 20px 50px;
             position: fixed;
             top: 20px;
-            width: 70%;
+            width: 60%;
             height: 3%;
             z-index: 100;
 
@@ -68,7 +72,7 @@
         }
 
         .nav-bar .logo {
-            font-family: "Orbitron", sans-serif;
+            font-family: 'Orbitron', sans-serif;
             font-size: 28px;
             color: #00fff0;
             letter-spacing: 1.5px;
@@ -83,10 +87,10 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #e0e0e0;
+            color: #00f5c9;
             font-weight: 500;
             font-size: 16px;
-            font-family: "Exo", sans-serif;
+            font-family: 'Exo', sans-serif;
             position: relative;
             transition: all 0.3s ease;
         }
@@ -167,6 +171,9 @@
                 transform: rotate(-45deg) translate(7px, -7px);
             }
         }
+
+
+
     </style>
 </head>
 <body>
@@ -193,31 +200,27 @@
 
     </header>
 
-<!--    &lt;!&ndash; Hero Section &ndash;&gt;-->
-<!--    <section class="home">-->
-<!--        &lt;!&ndash; Left Side (Text) &ndash;&gt;-->
-<!--        <div class="text-container">-->
-<!--            <div><h1>Mahen Abeywickrama</h1></div>-->
-
-<!--            <div class="container">-->
-<!--                <div class="text-slide">-->
-<!--                    <div class="slide"><h2>Software Engineer</h2></div>-->
-<!--                    <div class="slide"><h2>Web Developer</h2></div>-->
-<!--                    <div class="slide"><h2>UI/UX Engineer</h2></div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            <div>-->
-<!--                <p>-->
-<!--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti explicabo illo illum in inventore ipsa ipsum magni nisi nobis, officiis quas quidem sequi! Delectus et expedita maiores nam voluptatum. Mollitia?-->
-<!--                </p>-->
-<!--            </div>-->
-
-<!--            <div>-->
-
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="name">Mahen Abeywickrama</h1>
+            <div class="roles">
+                <span class="role">Software Engineer</span>
+                <span class="role">Web Developer</span>
+                <span class="role">UI Designer</span>
+            </div>
+            <p class="description">
+                Hi, I'm Mahen. I'm passionate about building innovative solutions, creating seamless user experiences, and designing functional, beautiful websites.
+            </p>
+            <div class="divider"></div>
+            <a href="#about-me" class="cta-circle">
+                <span class="circle-icon">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </span>
+                <span class="text">ABOUT ME</span>
+            </a>
+        </div>
+    </section>
 
 <!--        &lt;!&ndash; About Me Section &ndash;&gt;-->
 <!--    <section id="about-me">-->
