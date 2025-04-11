@@ -245,9 +245,19 @@
             margin-bottom: 20px;
             letter-spacing: 5px;
             text-shadow: 0 0 10px #00f5c9, 0 0 20px #00f5c9, 0 0 30px #00f5c9, 0 0 40px #00f5c9;
+            animation: flicker 3s infinite alternate;
         }
 
-
+        @keyframes flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+                opacity: 1;
+                text-shadow: 0 0 8px #00f5c9, 0 0 15px #00f5c980;
+            }
+            20%, 22%, 24%, 55% {
+                opacity: 0.85;
+                text-shadow: none;
+            }
+        }
     </style>
 </head>
 <body>
