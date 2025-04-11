@@ -283,6 +283,16 @@
             bottom: 0;
             margin: auto;
         }
+
+        @keyframes fadeCycle {
+            0%, 100% { opacity: 0; }
+            10%, 30% { opacity: 1; }
+            40%, 90% { opacity: 0; }
+        }
+
+        .role {
+            animation: fadeCycle 9s infinite;
+        }
     </style>
 </head>
 <body>
