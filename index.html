@@ -195,6 +195,46 @@
         .social-links i {
             margin-right: 10px;
         }
+
+        @media (max-width: 768px) {
+            .contact-section {
+                min-height: auto;
+                padding: 60px 20px;
+            }
+
+            .contact-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .contact-form,
+            .social-links {
+                flex: 1;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                font-size: 0.9rem;
+            }
+
+            .contact-form button {
+                font-size: 1rem;
+            }
+
+            .contact-heading h2 {
+                font-size: 3rem;
+            }
+
+            .info-box .label {
+                font-size: 0.7rem;
+            }
+
+            .info-box .value {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
