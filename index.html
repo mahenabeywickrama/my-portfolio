@@ -33,6 +33,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
     <style>
         html {
             scroll-behavior: smooth;
@@ -59,7 +63,7 @@
             padding: 20px 50px;
             position: fixed;
             top: 20px;
-            width: 60%;
+            width: 70%;
             height: 3%;
             z-index: 100;
 
@@ -263,20 +267,26 @@
             font-size: 2em;
             font-family: 'Exo', sans-serif;
             margin-top: 20px;
-            text-shadow: 0 0 10px #ea82af, 0 0 20px #ea82af, 0 0 30px #ea82af, 0 0 40px #ea82af;
-            color: #ea82af;
+            color: transparent;
+            background-clip: text;
+            /*color: #00f5c9;*/
             display: flex;
             justify-content: center;
             position: relative;
             overflow: hidden;
             width: 100%;
-            height: 2em;
+            height: 2.2em;
         }
 
         .role {
+            background: linear-gradient(to right, #00f5c9, #ea82af, #00f5c9);
+            color: transparent;
+            background-clip: text;
+            font-family: 'Michroma',serif;
             opacity: 0;
             position: absolute;
             white-space: nowrap;
+            height: 2em;
             top: 10px;
             left: 0;
             right: 0;
@@ -305,7 +315,7 @@
             font-size: 1.2em;
             margin-bottom: 30px;
             font-family: 'Exo', sans-serif;
-            color: #7cffe7;
+            color: #90f6e1;
             line-height: 1.6;
         }
 
