@@ -184,6 +184,53 @@
             text-align: center;
         }
 
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 60%;
+            aspect-ratio: 1/1;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(0, 245, 201, 0.3), transparent 70%);
+            border-radius: 50%;
+            z-index: 0;
+            pointer-events: none;
+            animation: cyberPulse 5s infinite ease-in-out;
+            opacity: 1;
+            filter: blur(120px);
+        }
+
+        @keyframes cyberPulse {
+            0% {
+                transform: translate(-50%, -50%) scale(0.9);
+                opacity: 0.6;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.5);
+                opacity: 1; /* Make it more intense */
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(0.9);
+                opacity: 0.6;
+            }
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 60%;
+            aspect-ratio: 1/1;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 0, 200, 0.15), transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+            filter: blur(100px);
+        }
+
     </style>
 </head>
 <body>
