@@ -47,6 +47,25 @@
             justify-content: center;
             align-items: center;
         }
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            position: fixed;
+            top: 20px;
+            width: 70%;
+            height: 3%;
+            z-index: 100;
+
+            background: rgba(18, 18, 18, 0.2);
+            backdrop-filter: blur(30px) saturate(150%);
+            -webkit-backdrop-filter: blur(30px) saturate(150%);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 30px rgba(0, 255, 255, 0.1),
+            0 4px 10px rgba(0, 0, 0, 0.6);
+        }
     </style>
 </head>
 <body>
