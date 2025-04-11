@@ -3,163 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <title>Mahen Abeywickrama</title>
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/ico" href="assets/images/icon_32x32.ico">
+
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="description" content="Welcome to my Website">
+    <meta name="author" content="Mahen Abeywickrama">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0e0e10;
+            color: #e0e0e0;
+        }
+
+    </style>
 </head>
 <body>
 
     <!-- Header -->
-    <header>
-        <h1>MLA</h1>
-
+    <header class="header">
         <!-- Navigation -->
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about-me">About Me</a>
-            <a href="#my-projects">My Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact-me">Contact</a>
+        <nav class="nav-bar">
+            <div class="logo">mla.</div>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#" class="btn">CONTACT</a></li>
+            </ul>
         </nav>
+
     </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <!-- left side -->
-        <div>
-            <h1>Hello,<br>I'm Mahen</h1>
-            <h3>I'm a Software Engineer<br>and a Web Developer</h3>
-            <button>About Me</button>
-            <button>Contact</button>
-        </div>
+<!--    &lt;!&ndash; Hero Section &ndash;&gt;-->
+<!--    <section class="home">-->
+<!--        &lt;!&ndash; Left Side (Text) &ndash;&gt;-->
+<!--        <div class="text-container">-->
+<!--            <div><h1>Mahen Abeywickrama</h1></div>-->
 
-        <!-- right side -->
-        <div>
-            <img src="assets/images/my-image.png">
-        </div>
-    </section>
+<!--            <div class="container">-->
+<!--                <div class="text-slide">-->
+<!--                    <div class="slide"><h2>Software Engineer</h2></div>-->
+<!--                    <div class="slide"><h2>Web Developer</h2></div>-->
+<!--                    <div class="slide"><h2>UI/UX Engineer</h2></div>-->
+<!--                </div>-->
+<!--            </div>-->
 
-    <!-- About Me Section -->
-    <section id="about-me">
-        <!-- left side -->
-        <div>
-            <img src="assets/images/about-me.png">
-        </div>
+<!--            <div>-->
+<!--                <p>-->
+<!--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti explicabo illo illum in inventore ipsa ipsum magni nisi nobis, officiis quas quidem sequi! Delectus et expedita maiores nam voluptatum. Mollitia?-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-        <!-- right side -->
-        <div>
-            <h1>About Me</h1>
-            <p>
-                My name is Mahen Abeywickrama. I’m a 22-year-old software engineer passionate about creating innovative solutions through code.
-                I thrive on solving complex problems, building efficient systems, and constantly learning about new technologies. Whether it’s developing software,
-                exploring the latest tech trends, or collaborating on impactful projects, I’m always eager to push boundaries and make a difference. Outside of work,
-                I enjoy diving into creative endeavors and exploring new ideas that fuel my curiosity.
-            </p>
-        </div>
-    </section>
 
-    <!-- My Projects Section -->
-    <section id="my-projects">
-        <h1>My Projects</h1>
+    <!--    &lt;!&ndash; About Me Section &ndash;&gt;-->
+<!--    <section id="about-me">-->
+<!--        &lt;!&ndash; left side &ndash;&gt;-->
+<!--        <div>-->
+<!--            <img src="assets/images/about-me.png">-->
+<!--        </div>-->
 
-        <!-- projects -->
-        <div>
-            <div>
-                <img src="assets/images/project-image-1.png">
-                <p>Online Shopping App</p>
-            </div>
-            <div>
-                <img src="assets/images/project-image-2.png">
-                <p>Online Bus Booking App</p>
-            </div>
-            <div>
-                <img src="assets/images/project-image-3.png">
-                <p>Online Flight Booking App</p>
-            </div>
-            <div>
-                <img src="assets/images/project-image-1.png">
-                <p>Online Shopping App</p>
-            </div>
-            <div>
-                <img src="assets/images/project-image-2.png">
-                <p>Online Bus Booking App</p>
-            </div>
-            <div>
-                <img src="assets/images/project-image-3.png">
-                <p>Online Flight Booking App</p>
-            </div>
-        </div>
-    </section>
+<!--        &lt;!&ndash; right side &ndash;&gt;-->
+<!--        <div>-->
+<!--            <h1>About Me</h1>-->
+<!--            <p>-->
+<!--                My name is Mahen Abeywickrama. I’m a 22-year-old software engineer passionate about creating innovative solutions through code.-->
+<!--                I thrive on solving complex problems, building efficient systems, and constantly learning about new technologies. Whether it’s developing software,-->
+<!--                exploring the latest tech trends, or collaborating on impactful projects, I’m always eager to push boundaries and make a difference. Outside of work,-->
+<!--                I enjoy diving into creative endeavors and exploring new ideas that fuel my curiosity.-->
+<!--            </p>-->
+<!--        </div>-->
+<!--    </section>-->
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h1>Skills</h1>
-        <p>
-            As a software engineer, I excel in designing and developing efficient, scalable, and user-friendly applications.
-            My expertise includes programming languages like Java, Python, and SQL, along with frameworks like JavaFX and Spring Boot.
-            I am skilled in database management using MySQL, implementing MVC architecture, and integrating systems through APIs.
-            With a strong foundation in problem-solving, I enjoy tackling challenges, optimizing performance, and ensuring code quality
-            through best practices such as input validation and error handling. Additionally, I have experience in developing intuitive
-            user interfaces, project management, and collaborating in agile teams to deliver impactful solutions.
-        </p>
+<!--    &lt;!&ndash; My Projects Section &ndash;&gt;-->
+<!--    <section id="my-projects">-->
+<!--        <h1>My Projects</h1>-->
 
-        <!-- skills -->
-        <div>
-            <img src="assets/images/java-icon.png">
-            <img src="assets/images/python-icon.png">
-            <img src="assets/images/mysql-icon.png">
-            <img src="assets/images/html-icon.png">
-            <img src="assets/images/css-icon.png">
-            <img src="assets/images/javascript-icon.png">
-        </div>
-    </section>
+<!--        &lt;!&ndash; projects &ndash;&gt;-->
+<!--        <div>-->
+<!--            <div>-->
+<!--                <img src="assets/images/project-image-1.png">-->
+<!--                <p>Online Shopping App</p>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="assets/images/project-image-2.png">-->
+<!--                <p>Online Bus Booking App</p>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="assets/images/project-image-3.png">-->
+<!--                <p>Online Flight Booking App</p>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="assets/images/project-image-1.png">-->
+<!--                <p>Online Shopping App</p>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="assets/images/project-image-2.png">-->
+<!--                <p>Online Bus Booking App</p>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="assets/images/project-image-3.png">-->
+<!--                <p>Online Flight Booking App</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-    <!-- Contact Me Section -->
-    <section id="contact-me">
-        <!-- left side -->
-        <div>
-            <h1>Contact Me</h1>
-            <p><b>Phone No.</b><br>+94 77 160 3155</p>
-            <p><b>E-mail</b><br>mahenabeywickrema2003@gmail.com</p>
-        </div>
+<!--    &lt;!&ndash; Skills Section &ndash;&gt;-->
+<!--    <section id="skills">-->
+<!--        <h1>Skills</h1>-->
+<!--        <p>-->
+<!--            As a software engineer, I excel in designing and developing efficient, scalable, and user-friendly applications.-->
+<!--            My expertise includes programming languages like Java, Python, and SQL, along with frameworks like JavaFX and Spring Boot.-->
+<!--            I am skilled in database management using MySQL, implementing MVC architecture, and integrating systems through APIs.-->
+<!--            With a strong foundation in problem-solving, I enjoy tackling challenges, optimizing performance, and ensuring code quality-->
+<!--            through best practices such as input validation and error handling. Additionally, I have experience in developing intuitive-->
+<!--            user interfaces, project management, and collaborating in agile teams to deliver impactful solutions.-->
+<!--        </p>-->
 
-        <!-- right side -->
-        <div>
-            <input type="text" placeholder="Name"><br>
-            <input type="text" placeholder="E-mail"><br>
-            <textarea placeholder="Description" rows="10" cols="30"></textarea><br>
-            <button>Send</button>
-        </div>
-    </section>
+<!--        &lt;!&ndash; skills &ndash;&gt;-->
+<!--        <div>-->
+<!--            <img src="assets/images/java-icon.png">-->
+<!--            <img src="assets/images/python-icon.png">-->
+<!--            <img src="assets/images/mysql-icon.png">-->
+<!--            <img src="assets/images/html-icon.png">-->
+<!--            <img src="assets/images/css-icon.png">-->
+<!--            <img src="assets/images/javascript-icon.png">-->
+<!--        </div>-->
+<!--    </section>-->
 
-    <!-- Footer -->
-    <footer>
-        <!-- socials -->
-        <div>
-            <h3>Follow Me</h3>
-            <img src="assets/images/github-icon.png">
-            <img src="assets/images/facebook-icon.png">
-            <img src="assets/images/x-icon.png">
-            <img src="assets/images/linked-in-icon.png">
-        </div>
+<!--    &lt;!&ndash; Contact Me Section &ndash;&gt;-->
+<!--    <section id="contact-me">-->
+<!--        &lt;!&ndash; left side &ndash;&gt;-->
+<!--        <div>-->
+<!--            <h1>Contact Me</h1>-->
+<!--            <p><b>Phone No.</b><br>+94 77 160 3155</p>-->
+<!--            <p><b>E-mail</b><br>mahenabeywickrema2003@gmail.com</p>-->
+<!--        </div>-->
 
-        <!-- links -->
-        <div>
-            <h3>Explore</h3>
-            <a href="#home">Home</a>
-            <a href="#about-me">About Me</a>
-            <a href="#my-projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact-me">Contact</a>
-        </div>
+<!--        &lt;!&ndash; right side &ndash;&gt;-->
+<!--        <div>-->
+<!--            <input type="text" placeholder="Name"><br>-->
+<!--            <input type="text" placeholder="E-mail"><br>-->
+<!--            <textarea placeholder="Description" rows="10" cols="30"></textarea><br>-->
+<!--            <button>Send</button>-->
+<!--        </div>-->
+<!--    </section>-->
 
-        <!-- details -->
-        <div>
-            <h3>Get in Touch</h3>
-            <p>+94 77 160 3155</p>
-            <p>mahenabeywickrema2003@gmail.com</p>
-        </div>
+<!--    <section class="contact-section">-->
+<!--        <div class="contact-container">-->
+<!--            <h3>CONTACT</h3>-->
+<!--            <h1>Let's get in touch</h1>-->
+<!--            <form class="contact-form">-->
+<!--                <input type="text" placeholder="Name" required />-->
+<!--                <input type="email" placeholder="Email" required />-->
+<!--                <textarea placeholder="Message" rows="5" required></textarea>-->
+<!--                <button type="submit">Send Message</button>-->
+<!--            </form>-->
 
-        <!-- copyright -->
-        <p>© Mahen Abeywickrama Ltd 2025</p>
-    </footer>
+<!--            <div class="social-links">-->
+<!--                <a href="#"><i class="fab fa-instagram"></i> INSTAGRAM</a>-->
+<!--                <a href="#"><i class="fab fa-twitter"></i> TWITTER</a>-->
+<!--                <a href="#"><i class="fab fa-facebook-f"></i> FACEBOOK</a>-->
+<!--                <a href="#"><i class="fab fa-behance"></i> BEHANCE</a>-->
+<!--                <a href="#"><i class="fab fa-dribbble"></i> DRIBBBLE</a>-->
+<!--                <a href="#"><i class="fab fa-pinterest-p"></i> PINTEREST</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    &lt;!&ndash; Footer &ndash;&gt;-->
+<!--    <footer>-->
+<!--        &lt;!&ndash; socials &ndash;&gt;-->
+<!--        <div>-->
+<!--            <h3>Follow Me</h3>-->
+<!--            <img src="assets/images/github-icon.png">-->
+<!--            <img src="assets/images/facebook-icon.png">-->
+<!--            <img src="assets/images/x-icon.png">-->
+<!--            <img src="assets/images/linked-in-icon.png">-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; links &ndash;&gt;-->
+<!--        <div>-->
+<!--            <h3>Explore</h3>-->
+<!--            <a href="#home">Home</a>-->
+<!--            <a href="#about-me">About Me</a>-->
+<!--            <a href="#my-projects">Projects</a>-->
+<!--            <a href="#skills">Skills</a>-->
+<!--            <a href="#contact-me">Contact</a>-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; details &ndash;&gt;-->
+<!--        <div>-->
+<!--            <h3>Get in Touch</h3>-->
+<!--            <p>+94 77 160 3155</p>-->
+<!--            <p>mahenabeywickrema2003@gmail.com</p>-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; copyright &ndash;&gt;-->
+<!--        <p>© Mahen Abeywickrama Ltd 2025</p>-->
+<!--    </footer>-->
 
 </body>
 </html>
