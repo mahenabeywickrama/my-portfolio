@@ -74,6 +74,41 @@
             letter-spacing: 1.5px;
             text-shadow: 0 0 12px rgba(0, 255, 240, 0.5);
         }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #e0e0e0;
+            font-weight: 500;
+            font-size: 16px;
+            font-family: "Exo", sans-serif;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:not(.btn)::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background: linear-gradient(90deg, #00f5c9, #5f72be);
+            transition: 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #00f5c9;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
