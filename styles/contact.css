@@ -5,11 +5,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 40px 20px;
+    /*padding: 40px 20px;*/
     box-sizing: border-box;
     background: repeating-linear-gradient(90deg, #00f5c9 0%, #ea82af 25%, #00f5c9 50%, #ea82af 75%, #00f5c9 100%);
     background-size: 400% 400%;
-    animation: gradientMove 60s ease infinite;
+    animation: gradientMove 30s ease infinite;
     opacity: 0.75;
     position: relative;
 }
@@ -119,7 +119,6 @@
     font-size: 1.2rem;
     padding: 15px 30px;
     border: 2px solid #00f5c9;
-    border-radius: 12px;
     cursor: pointer;
     z-index: 0;
     transition: color 0.3s ease;
