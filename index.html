@@ -186,6 +186,15 @@
             color: #ea82af;
             border-bottom: 1px dashed #ea82af;
         }
+
+        .cursor {
+            display: inline-block;
+            animation: blink 1s step-start infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
