@@ -52,13 +52,15 @@
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #00f5c9;
-    margin-bottom: 10px;
+    color: #00c39f;
+    margin-bottom: 5px;
 }
 
 .contact-form h3 {
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom:50px;
+    color: #00f5c9;
     font-weight: 500;
 }
 
@@ -193,7 +195,7 @@
 .contact-info {
     padding: 20px;
     margin-bottom: 20px;
-    color: #e0e0e0;
+    color: #00f5c9;
     border: 1px solid #00f5c9;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
