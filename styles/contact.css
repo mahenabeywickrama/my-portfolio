@@ -42,9 +42,12 @@
     max-width: 800px;
     padding: 30px;
     border: 1px solid #00f5c9;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
     font-family: 'Exo', sans-serif;
     box-sizing: border-box;
 }
+
 
 .contact-form h4 {
     font-size: 0.9rem;
@@ -210,9 +213,11 @@
 
 .contact-info {
     padding: 20px;
-    border: 1px solid #00f5c9;
     margin-bottom: 20px;
     color: #e0e0e0;
+    border: 1px solid #00f5c9;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
 }
 
 .info-box {
@@ -247,16 +252,20 @@
     align-items: center;
     padding: 15px 20px;
     border: 1px solid #ea82af;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
     color: #ea82af;
     text-decoration: none;
     font-size: 1.2rem;
     font-family: 'Exo', sans-serif;
     transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(234, 130, 175, 0.6);
 }
 
 .social-links a:hover {
     color: #00f5c9;
     border-color: #00f5c9;
+    box-shadow: 0 0 15px rgba(0, 245, 201, 0.8);
 }
 
 .social-links i {
