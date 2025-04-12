@@ -149,6 +149,15 @@
         .ascii-art {
             animation: pulseGlow 3s ease-in-out infinite;
         }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                text-shadow: 0 0 5px #00f5c9, 0 0 10px #00f5c9;
+            }
+            50% {
+                text-shadow: 0 0 15px #00f5c9, 0 0 30px #00f5c9;
+            }
+        }
     </style>
 </head>
 <body>
