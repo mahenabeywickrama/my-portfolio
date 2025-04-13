@@ -287,7 +287,12 @@
         gap: 20px;
     }
 
-    .contact-form,
+    .contact-form {
+        flex: 1;
+        width: 100%;
+        max-width: 100%;
+    }
+
     .social-links {
         flex: 1;
         width: 100%;
