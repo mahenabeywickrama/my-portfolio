@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     color: #00f5c9;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Courier New', monospace;
     background-color: #000;
     background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
@@ -30,7 +30,6 @@
     background: #111;
     box-shadow: 0 0 150px #00f5c9aa;
     margin: 2rem auto;
-    font-family: monospace;
     position: relative;
     z-index: 1;
 }
@@ -109,6 +108,7 @@
 
 .command span {
     color: #ea82af;
+
 }
 
 .prompt {
@@ -117,10 +117,8 @@
 }
 
 .skills {
-    font-family: monospace;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #00f5c9;
+    line-height: 1.8;
+    font-family: 'Courier New', monospace;
 }
 
 .scroll-link {
@@ -143,5 +141,25 @@
 @keyframes blink {
     50% {
         opacity: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .ascii-art {
+        font-size: 0.5rem;
+    }
+
+    .terminal-body {
+        font-size: 0.8rem;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .ascii-art {
+        font-size: 0.4rem;
+    }
+
+    .terminal-body {
+        font-size: 0.6rem;
     }
 }
