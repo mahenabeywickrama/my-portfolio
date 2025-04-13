@@ -34,7 +34,7 @@
     }
     50% {
         transform: translate(-50%, -50%) scale(1.5);
-        opacity: 1; /* Make it more intense */
+        opacity: 1;
     }
     100% {
         transform: translate(-50%, -50%) scale(0.9);
