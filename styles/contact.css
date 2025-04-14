@@ -41,8 +41,8 @@
 }
 
 .contact-heading h2 {
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 90px;
+    margin-bottom: 15px;
     font-size: 4rem;
     font-weight: 700;
     font-family: 'Orbitron', sans-serif;
@@ -68,7 +68,7 @@
 .contact-form {
     flex: 2 1 600px;
     max-width: 800px;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid #00f5c9;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
@@ -77,6 +77,7 @@
 }
 
 .contact-form h4 {
+    margin: 10px 0;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -86,8 +87,9 @@
 
 .contact-form h3 {
     font-size: 2rem;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     /*margin-bottom:50px;*/
+    margin: 15px 0;
     color: #00f5c9;
     font-weight: 500;
 }
@@ -255,7 +257,7 @@
 .contact-info .info-box {
     display: flex;
     align-items: flex-start;
-    margin: 30px 0;
+    margin: 40px 0;
     font-family: 'Exo', sans-serif;
 }
 
