@@ -146,7 +146,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
     .ascii-art {
         font-size: 0.4rem;
     }

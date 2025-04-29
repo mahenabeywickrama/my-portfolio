@@ -149,6 +149,24 @@
     box-shadow: 0 0 10px #ea82af;
 }
 
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #ea82af;
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #00f5c9;
+    /*transform: scale(1.2);*/
+}
+
 @media (max-width: 768px) {
     .name {
         font-size: 3em;
@@ -207,15 +225,30 @@
     color: #ea82af;
 }
 
-@media (max-width: 480px) {
-    .name {
-        font-size: 2.5em;
-        margin-top: 100px;
+@media (max-width: 498px) {
+    .fname {
+        font-size: 2em;
     }
+
+    .name {
+        font-size: 1.6em;
+        /*margin-top: 100px;*/
+        line-height: 40px;
+    }
+
+    .description {
+        font-size: 0.8em;
+    }
+
     .roles {
         font-size: 1.2em;
     }
+
+    .social-icons a {
+        font-size: 1.5rem;
+    }
+
     .cta-circle {
-        font-size: 0.85rem;
+        font-size: 0.85em;
     }
 }
