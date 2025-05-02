@@ -377,6 +377,10 @@
     .info-box .value {
         font-size: 1rem;
     }
+
+    .contact-info .info-box {
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 1024px) {
