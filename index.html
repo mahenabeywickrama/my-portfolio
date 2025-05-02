@@ -100,6 +100,21 @@
             z-index: 1;
             overflow: hidden;
         }
+
+        .assignment-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00f5c9, #ea82af, #00f5c9);
+            filter: blur(15px);
+            z-index: -1;
+            opacity: 0.3;
+            transition: opacity 0.4s ease;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
