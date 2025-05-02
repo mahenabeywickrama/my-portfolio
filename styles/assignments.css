@@ -18,7 +18,7 @@
     font-weight: bold;
     letter-spacing: 2px;
     text-shadow:
-            0 0 0px #00f5c9,
+            0 0 20px #00f5c9,
             0 0 10px #00f5c9,
             0 0 20px #00f5c9,
             0 0 40px #00f5c9,
@@ -64,7 +64,7 @@
 
 .assignment-card:hover {
     /*transform: translateY(-10px);*/
-    transform: scale(1.02);
+    transform: scale(1.01);
     box-shadow: 0 0 75px #00f5c9, 0 0 30px #00f5c9aa;
 }
 
