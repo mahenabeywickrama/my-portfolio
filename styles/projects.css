@@ -67,6 +67,7 @@
     transform: scale(1.02);
     box-shadow: 0 0 75px #00f5c9, 0 0 30px #00f5c9aa;
 }
+
 .project-card:hover::before {
     opacity: 0.8;
 }
