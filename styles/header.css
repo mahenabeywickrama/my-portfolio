@@ -86,12 +86,6 @@
     0 0 50px rgba(95, 114, 190, 0.5);
 }
 
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-}
-
 .menu-icon {
     display: none;
     flex-direction: column;
@@ -109,7 +103,11 @@
     transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1004px) {
+    .nav-links {
+        display: none;
+    }
+
     .menu-icon {
         display: flex;
     }
