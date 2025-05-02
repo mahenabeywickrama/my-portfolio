@@ -12,9 +12,9 @@
     box-sizing: border-box;
 }
 
-.section-title {
+.projects-section-title {
     font-size: 3rem;
-    margin: 70px auto 40px;
+    margin: 60px auto 30px;
     font-weight: bold;
     letter-spacing: 2px;
     text-shadow:
@@ -31,7 +31,7 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@
     color: #ccc;
 }
 
-.tech-stack span {
+.projects-tech-stack span {
     display: inline-block;
     margin: 0 5px 5px 0;
     padding: 5px 10px;
@@ -95,7 +95,7 @@
     transition: background 0.3s, box-shadow 0.3s;
 }
 
-.tech-stack span:hover {
+.projects-tech-stack span:hover {
     background: rgba(0, 245, 201, 0.15);
     box-shadow: 0 0 10px #00f5c9;
 }
