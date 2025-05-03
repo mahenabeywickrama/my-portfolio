@@ -53,7 +53,30 @@
     <link rel="stylesheet" href="styles/assignments.css">
 
     <style>
+        .footer {
+            position: relative;
+            min-height: 50vh;
+            padding: 5rem 1rem;
+            font-family: 'Orbitron', sans-serif;
+            color: #00f5c9;
+            text-shadow: 0 0 5px #00f5c9;
+            box-sizing: border-box;
+            background: repeating-linear-gradient(90deg, #00f5c9 0%, #ea82af 25%, #00f5c9 50%, #ea82af 75%, #00f5c9 100%);
+            background-size: 400% 400%;
+            animation: gradientMove 30s ease infinite;
+            opacity: 0.75;
+        }
 
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
     </style>
 </head>
 <body>
