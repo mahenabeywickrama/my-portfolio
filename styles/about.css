@@ -107,10 +107,8 @@
     margin-right: 8px;
 }
 
-.skills {
-    line-height: 2.2;
+.terminal-body pre:nth-child(n+1) {
     font-family: 'Courier New', monospace;
-    margin-bottom: -35px;
 }
 
 .scroll-link {
@@ -148,10 +146,14 @@
 
 @media all and (max-width: 400px) {
     .ascii-art {
-        font-size: 0.4rem;
+        font-size: 0.36rem;
     }
 
     .terminal-body {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .progress-bar {
+        display: none;
     }
 }
