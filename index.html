@@ -95,7 +95,6 @@
             font-size: 1.2rem;
             color: #ea82af;
             margin-bottom: 1rem;
-            /*text-shadow: 0 0 5px #ea82af;*/
             text-shadow: 0 0 10px #ea82af, 0 0 20px #ea82af, 0 0 30px #ea82af, 0 0 40px #ea82af;
         }
 
@@ -143,12 +142,7 @@
             max-width: 1230px;
             margin-left: auto;
             margin-right: auto;
-        }
-
-        .footer-back-to-top {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+            flex-wrap: wrap;
         }
 
         .footer-back-to-top button {
@@ -188,11 +182,14 @@
         .circle-top {
             width: 32px;
             height: 32px;
+            min-width: 32px;
+            min-height: 32px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid #00f5c9;
+            border: 2px solid #00f5c9;
             border-radius: 50%;
+            flex-shrink: 0;
             transition: all 0.3s ease;
         }
 
@@ -203,7 +200,6 @@
         .circle-top i {
             font-size: 1rem;
         }
-
 
     </style>
 </head>
