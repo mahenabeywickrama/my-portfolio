@@ -132,14 +132,79 @@
         }
 
         .footer-bottom {
-            max-width: 1230px;
-            margin: 2rem auto 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #00f5c9;
+            margin-top: 2rem;
             padding-top: 1rem;
-            text-align: center;
             font-size: 0.85rem;
             text-shadow: 0 0 10px #00f5c9, 0 0 20px #00f5c9, 0 0 30px #00f5c9, 0 0 40px #00f5c9;
-            border-top: 1px solid #00f5c9;
+            max-width: 1230px;
+            margin-left: auto;
+            margin-right: auto;
         }
+
+        .footer-back-to-top {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-back-to-top button {
+            padding: 0.4rem 1rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.85rem;
+            background-color: transparent;
+            border: 1px solid #00f5c9;
+            color: #00f5c9;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-shadow: inherit;
+        }
+
+        .footer-back-to-top button:hover {
+            background-color: #00f5c9;
+            color: #0d0d1a;
+            text-shadow: none;
+        }
+
+        .top-circle {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: #00f5c9;
+            font-family: 'Orbitron', sans-serif;
+            text-shadow: 0 0 5px #00f5c9, 0 0 10px #00f5c9;
+            transition: all 0.3s ease;
+        }
+
+        .top-circle:hover {
+            color: #ea82af;
+            text-shadow: 0 0 5px #ea82af, 0 0 10px #ea82af;
+        }
+
+        .circle-top {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #00f5c9;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .top-circle:hover .circle-top {
+            border-color: #ea82af;
+        }
+
+        .circle-top i {
+            font-size: 1rem;
+        }
+
+
     </style>
 </head>
 <body>
@@ -571,7 +636,15 @@
         <!-- Bottom -->
         <div class="footer-bottom">
             <p>&copy; 2025 Mahen Abeywickrama. All Rights Reserved.</p>
+
+            <a href="#" class="top-circle">
+                <span class="text">Back to top</span>
+                <span class="circle-top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </span>
+            </a>
         </div>
+
     </footer>
 
 </body>
