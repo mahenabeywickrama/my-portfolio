@@ -18,7 +18,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60%;
+    width: 65%;
     aspect-ratio: 1/1;
     transform: translate(-50%, -50%);
     background: radial-gradient(circle, rgba(0, 245, 201, 0.5), transparent 70%);
@@ -70,8 +70,9 @@
 .name {
     font-size: 5em;
     font-family: 'Orbitron', sans-serif;
-    margin-top: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    /*margin-top: 120px;*/
+    /*margin-bottom: 20px;*/
     letter-spacing: 5px;
     text-shadow: 0 0 10px #00f5c9, 0 0 20px #00f5c9, 0 0 30px #00f5c9, 0 0 40px #00f5c9;
     animation: flicker 3s infinite alternate;
@@ -91,7 +92,7 @@
 .roles {
     font-size: 2em;
     font-family: 'Exo', sans-serif;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     color: transparent;
     background-clip: text;
     /*color: #00f5c9;*/
@@ -260,7 +261,6 @@
 
     .name {
         font-size: 1.6em;
-        /*margin-top: 100px;*/
         line-height: 40px;
     }
 
