@@ -119,9 +119,17 @@
 }
 
 @keyframes fadeCycle {
-    0%, 100% { opacity: 0; }
-    10%, 30% { opacity: 1; }
-    40%, 90% { opacity: 0; }
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 30% {
+        opacity: 1;
+    }
+
+    40%, 90% {
+        opacity: 0;
+    }
 }
 
 .role:nth-child(1) {
@@ -224,10 +232,21 @@
 }
 
 @keyframes bounce {
-    0%   { transform: translateY(0); }
-    25%  { transform: translateY(-4px); }
-    75% { transform: translateY(4px); }
-    100% { transform: translateY(0); }
+    0%   {
+        transform: translateY(0);
+    }
+
+    25%  {
+        transform: translateY(-4px);
+    }
+
+    75% {
+        transform: translateY(4px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .cta-circle:hover .circle-icon i {
