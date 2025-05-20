@@ -114,6 +114,21 @@
         .services-center {
             text-align: center;
         }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00f5c9, #ea82af, #00f5c9);
+            filter: blur(25px);
+            opacity: 0.3;
+            z-index: -1;
+            border-radius: 15px;
+            transition: opacity 0.4s ease;
+        }
     </style>
 </head>
 <body>
