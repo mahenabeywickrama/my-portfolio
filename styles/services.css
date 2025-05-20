@@ -1,0 +1,131 @@
+.services-section {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    background-image:
+            linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 20px 20px;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 60px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.services-section-title {
+    font-size: 3rem;
+    margin: 60px auto 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow:
+            0 0 20px #00f5c9,
+            0 0 10px #00f5c9,
+            0 0 20px #00f5c9,
+            0 0 40px #00f5c9,
+            0 0 80px #00f5c9;
+    color: #00f5c9;
+    position: relative;
+}
+
+.service-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #00f5c9;
+    text-shadow: 0 0 10px #00f5c9;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.service-card {
+    position: relative;
+    background: #111;
+    border: 2px solid #00f5c9;
+    padding: 2rem 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 25px #00f5c955;
+    overflow: hidden;
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.services-center {
+    text-align: center;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #00f5c9, #ea82af, #00f5c9);
+    filter: blur(25px);
+    opacity: 0.3;
+    z-index: -1;
+    border-radius: 15px;
+    transition: opacity 0.4s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 60px #00f5c9;
+}
+
+.service-card:hover::before {
+    opacity: 0.6;
+}
+
+.service-title {
+    font-size: 1.6rem;
+    color: #ea82af;
+    margin-bottom: 1rem;
+}
+
+.service-desc {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.services-tech-stack {
+    margin-top: 1rem;
+}
+
+.services-tech-stack span {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+    border: 1px dashed #00f5c9;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    background: rgba(0, 245, 201, 0.05);
+    color: #00f5c9;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.services-tech-stack span:hover {
+    background: rgba(0, 245, 201, 0.15);
+    box-shadow: 0 0 10px #00f5c9;
+}
+
+.service-list {
+    margin: 0 0 1rem 20px;
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .services-section-title {
+        font-size: 2.2rem;
+    }
+}
