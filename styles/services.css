@@ -75,7 +75,7 @@
 }
 
 .service-card:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     box-shadow: 0 0 60px #00f5c9;
 }
 
